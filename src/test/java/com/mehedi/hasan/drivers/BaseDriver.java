@@ -10,8 +10,10 @@ import org.testng.annotations.BeforeSuite;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseDriver {
+	
+	public  static String url = "https://www.tutorialspoint.com/selenium/practice/login.php";
 
-	protected WebDriver driver;
+	public static WebDriver driver;
 	@BeforeSuite
 	public void StartBrowser() {
 		String webBrowser = "chrome";

@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mehedi.hasan.drivers.BaseDriver">
+      <class name="com.mehedi.hasan.tests.loginTest">
         <methods>
-          <include name="test"/>
+          <include name="report"/>
           <include name="closeBrowse"/>
+          <include name="Logintestme"/>
+          <include name="openUrl"/>
           <include name="StartBrowser"/>
         </methods>
-      </class> <!-- com.mehedi.hasan.drivers.BaseDriver -->
+      </class> <!-- com.mehedi.hasan.tests.loginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
